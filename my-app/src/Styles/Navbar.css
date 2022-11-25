@@ -1,0 +1,9 @@
+/* Navigation Bar ------------------------------------------------------------------------ */
+.nav-bar {
+    border: 2px solid black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: bisque;
+}
