@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 /* About Me Section ------------------------------------------------------------------------ */
 .section-about-me {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 100px 0 20px 0;
     height: 600px;
-
+    background-color: #EEEEEE;
+    box-shadow: 0px 15px 100px -15px rgba(0, 0, 255, 0.582);
+    border-radius: 30px 30px 30px 30px;
 }
 
 .about-me-heading {
     /* border: 2px solid black; */
     width: 70%;
     margin: 20px auto 5px;
+    padding-top: 70px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: xx-large;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about-me-content {
@@ -44,9 +50,33 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about-me-links li{
     margin-bottom: 20px;
     list-style: none;
+    border-radius: 50%;
+}
+
+.about-me-links li:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px blue;
+}
+
+.resumeButton{
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    /* border: 2px solid black; */
+    background-color: #3C4048;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.resumeButton:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 15px 15px blue;
 }
