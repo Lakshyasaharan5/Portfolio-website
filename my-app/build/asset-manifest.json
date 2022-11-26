@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1fb82a39.css",
+    "main.js": "/static/js/main.e4e5a36d.js",
+    "static/media/lakshya-pic.JPEG": "/static/media/lakshya-pic.25c30d1a990935db59ae.JPEG",
+    "static/media/LakshyaSaharanResume.pdf": "/static/media/LakshyaSaharanResume.e290a2d5b4e861b3452c.pdf",
+    "index.html": "/index.html",
+    "main.1fb82a39.css.map": "/static/css/main.1fb82a39.css.map",
+    "main.e4e5a36d.js.map": "/static/js/main.e4e5a36d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fb82a39.css",
+    "static/js/main.e4e5a36d.js"
+  ]
+}
